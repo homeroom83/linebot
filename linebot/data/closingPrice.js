@@ -4,7 +4,6 @@ export let closingPrice = ''
 
 export const update = async (event) => {
   try {
-    // let id = event.message.text.replace('代碼', '')
     const id = event.message.text
     let name = ''
     console.log(id)

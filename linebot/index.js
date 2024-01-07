@@ -18,7 +18,6 @@ bot.on('message', event => {
   if (event.message.type === 'text') {
     closingPrice.update(event)
     console.log('準備查詢')
-    // event.reply(closingPrice.exrate)
   }
 })
 
